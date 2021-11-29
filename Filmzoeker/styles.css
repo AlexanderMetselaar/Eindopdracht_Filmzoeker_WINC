@@ -1,0 +1,34 @@
+body {
+    background-color: #000;
+    color: white;
+
+}
+
+#list_of_movies {
+    display: flex;
+    align-items: center;
+    outline: none;
+    gap: 15px;
+    flex-wrap: wrap;
+    flex-direction: row;  
+    
+}
+
+.search-label {
+    margin-left: 15px;
+}
+
+.imageContainer:hover {
+    margin-left: 0 40px;
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.nav_menu {
+    padding: 40px;
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+}

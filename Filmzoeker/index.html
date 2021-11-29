@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css" type="text/css">
+    <title>Filmzoeker</title>
+</head>
+<header>
+    <h4>Welkom bij de WINC Filmzoeker</h4>
+    <nav class="nav_menu">
+        <input type="radio" id="latest-movies" name="movies-filter" value="new-movies">
+        <label for="latest-movies">Nieuwste films (2014 of nieuwer)</label>
+
+        <input type="radio" id="avengers" name="movies-filter" value="avenger-movies">
+        <label for="avengers">Avengers</label>
+
+        <input type="radio" id="x-men" name="movies-filter" value="xmen-movies">
+        <label for="x-men">X-men</label>
+
+        <input type="radio" id="princess" name="movies-filter" value="princess-movies">
+        <label for="princess">Princess</label>
+
+        <input type="radio" id="batman" name="movies-filter" value="batman-movies">
+        <label for="batman">Batman</label>
+
+        <label for="search" class="search-label">Zoek hier</label>
+        <input type="search" id="search" name="search-filter">
+
+
+
+    </nav>
+</header>
+
+<body>
+    <main id="movie-selection">
+        <ul id="list_of_movies"></ul>
+    </main>
+
+    <script src="movies.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
